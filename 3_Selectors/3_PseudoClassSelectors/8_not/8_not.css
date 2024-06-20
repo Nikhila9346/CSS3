@@ -1,0 +1,3 @@
+li:not(.exclude){
+    color:red
+}
