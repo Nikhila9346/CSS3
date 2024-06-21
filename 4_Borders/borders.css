@@ -1,0 +1,24 @@
+h1{
+    border-width: 20px;
+    /* border-top-width: 10px;
+    border-left-width: 5px;
+    border-right-width: 15px;
+    border-bottom-width: 20px; */
+    border-color: burlywood;
+    /* border-top-color: aqua;
+    border-bottom-color: blue;
+    border-right-color: chartreuse;
+    border-left-color: crimson; */
+    border-style: solid;
+    /* border-style: dashed;
+    border-style: dotted;
+    border-style: double;
+    border-style: groove;
+    border-style: ridge; */
+    border-left-style: dashed;
+    border-right-style: dotted;
+    border-bottom-style: double;
+    border-right-style: ridge;
+
+    border: 20px green ridge;
+}
