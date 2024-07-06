@@ -1,0 +1,13 @@
+div + p{
+    border: 2px solid chartreuse;
+}
+
+div + h1{
+    border: 5px dotted cornflowerblue;
+}
+.a + h1{
+    text-align: center;
+}
+.b + p{
+    text-align: end;
+}

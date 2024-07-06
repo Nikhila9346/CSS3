@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    border: 2px solid chartreuse;
+    display: block;
+    /* display: inline; */
+    height: 100px;
+    width: 500px;
+}
+span{
+    border: 2px solid cyan;
+    display: inline;
+    /* display: block; */
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+}
+div{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: inline-block;
+}
+#red{
+    background-color: red;
+}
+#black{
+    background-color: black;
+}
+#blue{
+    background-color: blue;
+}
+
+/* 
+1. we can change the inline --> block and block --> inline
+2. height and width properties are not applied to inline level elements
+3. For inline level elements, padding and margin can be applied on the left and right.
+
+-- display: inline - block
+
+   It behaves like inline level elements but take block level properties
+ */
