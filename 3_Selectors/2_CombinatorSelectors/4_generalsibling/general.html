@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adjacent Selectors</title>
-    <link rel="stylesheet" href="adjacent.css">
+    <title>General Sibling Selectors</title>
+    <link rel="stylesheet" href="general.css">
 </head>
 <body>
     <div class="a">
@@ -23,7 +23,7 @@
 </body>
 </html>
 
-<!-- Adjacent Selectors -> It will target the immediate neighbouring element i.e next to it
-     For a nested tags, the adjacent element to div tag is p tag so the border will be applied to the p tag
-     If you specify .a + h1-- the css is applied to the h1 tag
-     If you specify .b + p -- the css will be applied to the neighbouring element p tag(child 3)    -->
+<!-- 
+General Sibling Selectors -  will select all the neighbouring elements instead of selecting only one element
+Here, the general Siblings of div tag is h1, p tags, so the CSS will be applied on these elements  
+-->

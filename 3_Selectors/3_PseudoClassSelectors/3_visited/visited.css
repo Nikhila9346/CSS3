@@ -1,0 +1,8 @@
+a{
+    background-color: springgreen;
+}
+
+a :visited{
+    color: blue;
+    background-color: rgb(167, 38, 167);
+}
