@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* main{
+    height: 220px;
+    width:220px;
+    border: 2px solid black;
+}
+#green{
+    background-color: green;
+    position: absolute;
+}
+#blue{
+    background-color: blue;
+    position: absolute;
+    width: 300px;
+}
+#red{
+    background-color: red;
+    position: absolute;
+} */
+
+/* RELATIVELY POSITIONED PARENT */
+
+article{
+    height: 500px;
+    width: 500px;
+    background-color: springgreen;
+    margin: 100px;
+    /* position: relative; */
+}
+footer{
+    height: 250px;
+    width: 250px;
+    background-color: slategrey;
+    top: 50px;
+    left: 50px;
+    position: absolute;
+}
+
+/* 
+In the article and footer example,
+ if you give position: relative to the parent and the position: absolute to the child - the child will move according to its parent
+ if you not mention position: relative to the parent and the position: absolute to the child - the child will be moving according to the webpage
+*/
+
+/*
+ Whenever you specify position: absolute; the element will be floating and the color next to it will be back of that color
+*/

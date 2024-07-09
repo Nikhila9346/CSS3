@@ -1,0 +1,26 @@
+/* section{
+    font-size: 10px;
+}
+#one{
+    font-size: 2em;
+}
+#two{
+    font-size: 25px;
+} */
+
+html{
+    font-size: 20px;
+}
+#one{
+    font-size: 1rem;
+}
+#two{
+    font-size: 40px;
+}
+
+
+/* 
+em is dependent on it parent
+rem is dependent on its root element i.e html tag
+ */
+

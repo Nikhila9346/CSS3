@@ -1,0 +1,14 @@
+#one{
+    height: 1000px;
+    background-color: palegreen;
+}
+#two{
+    height: 1200px;
+    background-color: darkturquoise;
+}
+nav{
+    height: 100px;
+    background-color: rgb(255, 234, 0);
+    position: sticky;
+    top: 5px;
+}

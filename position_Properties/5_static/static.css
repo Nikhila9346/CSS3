@@ -1,0 +1,9 @@
+aside{
+    height: 150px;
+    width: 200px;
+    background-color: dodgerblue;
+    top: 50px;
+}
+
+
+/* the properties like top, left, right, bottom and z-index will not affect this property */
