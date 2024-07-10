@@ -1,0 +1,30 @@
+div{
+    height: 200px;
+    width: 200px;
+}
+#block1{
+    position: absolute;
+    background-color: orange;
+    z-index: 10;
+}
+#block2{
+    position: absolute;
+    background-color: chartreuse;
+    z-index: 12;
+}
+#block3{
+    position: absolute;
+    background-color: cyan;
+    z-index: 100;
+}
+#block3:hover{
+    position: fixed;
+    top: 250px;
+    left: 250px;
+}
+#block2:hover{
+    left: 250px;
+}
+#block3:hover{
+    left: 550px;
+}

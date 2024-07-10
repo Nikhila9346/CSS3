@@ -1,0 +1,37 @@
+/* div{
+    height: 250px;
+    width: 250px;
+    background-color: salmon;
+    position: relative;
+    top: 150px;
+    left: 450px;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-delay:1s;
+    transition: all 7s 1s;
+}
+div:hover{
+    background-color: sandybrown;
+    border-radius: 50%;
+} */
+
+main{
+    height: 50px;
+    width: 25px;
+    background-color: purple;
+    transition-property: all;
+    transition-duration: 5s;
+    transition-delay: 0s;
+    transition-timing-function: ease;
+    transition-timing-function: ease-in;
+    transition-timing-function: ease-out;
+    transition-timing-function: ease-in-out;
+    transition-timing-function: linear;
+}
+main:hover{
+    width: 1000px;
+}
+
+/* 
+transition-delay will wait for the specified time and then applies all the transition properties
+ */
