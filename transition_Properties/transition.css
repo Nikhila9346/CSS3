@@ -1,3 +1,8 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
 /* div{
     height: 250px;
     width: 250px;
@@ -15,7 +20,7 @@ div:hover{
     border-radius: 50%;
 } */
 
-main{
+/* main{
     height: 50px;
     width: 25px;
     background-color: purple;
@@ -30,6 +35,20 @@ main{
 }
 main:hover{
     width: 1000px;
+} */
+
+/* example 3 */
+#img_container{
+    height: 250px;
+    width: 150px;
+    border: 0px solid red;
+    position: relative;
+    top: 100px;
+    left: 550px;
+}
+img{
+    height: inherit;
+    width: inherit;
 }
 
 /* 
