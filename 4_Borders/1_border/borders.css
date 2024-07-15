@@ -20,5 +20,5 @@ h1{
     border-bottom-style: double;
     border-right-style: ridge;
 
-    border: 20px green ridge;
+    border: 20px green groove;
 }
