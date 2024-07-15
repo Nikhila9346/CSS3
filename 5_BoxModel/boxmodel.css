@@ -1,0 +1,28 @@
+/* margin in box model : it adds the space between the border and the webpage */
+
+#one{
+    border: 2px deeppink solid;
+    background-color: greenyellow;
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+    margin: 10px;
+}
+#two{
+    border: 5px orangered solid;
+    background-color: orange;
+}
+
+/* border: it adds a line around the content  */
+#three, #four{
+    border: 2px black double;
+}
+
+/* padding in box model: adds the space around the content i.e between the border and the content  */
+#five{
+    border: 2px deeppink solid;
+    background-color: greenyellow;
+    padding: 20px;
+    margin: 30px;
+}
