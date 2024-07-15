@@ -1,0 +1,18 @@
+div{
+    border: 5px red solid;
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 50px;
+}
+
+#one{
+    box-sizing: border-box;
+}
+
+/* 
+By default, the box-sizing is set to content-box i.e it will take the height and width is taken till the content (box-sizing: content-box)
+If you want to take the height and width till the border then use box-sizing: border-box .
+
+To check this, click on inspect and check the height and width of both the boxes.
+*/
