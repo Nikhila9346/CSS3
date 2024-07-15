@@ -1,4 +1,5 @@
-/* margin in box model : it adds the space between the border and the webpage */
+/* margin in box model : it adds the space between the border and the webpage
+It can take the negative values also by specifying it, the element will go in the opposite direction of the webpage */
 
 #one{
     border: 2px deeppink solid;
@@ -7,6 +8,7 @@
     margin-right: 100px;
     margin-left: 100px;
     margin-bottom: 100px;
+    margin: -10px;
     margin: 10px;
 }
 #two{
@@ -19,7 +21,8 @@
     border: 2px black double;
 }
 
-/* padding in box model: adds the space around the content i.e between the border and the content  */
+/* padding in box model: adds the space around the content i.e between the border and the content 
+Padding cannot take negative values */
 #five{
     border: 2px deeppink solid;
     background-color: greenyellow;
