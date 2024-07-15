@@ -1,0 +1,20 @@
+*{
+    background-color: black; 
+    box-sizing: border-box;
+    margin: 0px;
+}
+div{
+    border: 2px solid white;
+    height: 250px;
+    width: 250px;
+    margin: 200px;
+    margin-left: 600px;
+    /* box-shadow: 2px 3px 20px white; */
+    box-shadow: 2px 3px 20px white inset;
+    transition: all 3s;
+}
+div:hover{
+    border-radius: 50%;
+}
+
+/* box-shadow: x-axis y-axis blurness color inset(not mandatory) */
