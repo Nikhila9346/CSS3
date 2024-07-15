@@ -1,4 +1,12 @@
+/* this will target only the h1 tags which have id as their attribute */
 h1[id]{
     color: wheat;
+    background-color: black;
+}
+
+
+/* this will target all the html tags which have id as their attribute */
+[id]{
+    color: white;
     background-color: black;
 }
