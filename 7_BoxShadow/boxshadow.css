@@ -10,11 +10,12 @@ div{
     margin: 200px;
     margin-left: 600px;
     /* box-shadow: 2px 3px 20px white; */
-    box-shadow: 2px 3px 20px white inset;
+    box-shadow: 2px 3px 20px white inset, 5px 6px 2px whitesmoke, 10px 9px 10px wheat;
     transition: all 3s;
 }
 div:hover{
     border-radius: 50%;
 }
 
-/* box-shadow: x-axis y-axis blurness color inset(not mandatory) */
+/* box-shadow: x-axis y-axis blurness color inset(not mandatory) 
+you can give multiple values to the box-shadow, so that the shadow will be applied one after the other */
