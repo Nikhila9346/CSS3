@@ -10,10 +10,16 @@ div{
     border-bottom-right-radius: 10px; */
 
     /* short hand  */
-    border-radius: 5px 10px 3px 20px;
-    /* border-radius: 5px 10px 3px;
-    border-radius: 5px 3px;
-    border-radius: 5px;
-    border-radius: 5px 0px; */
+    /* border-radius: 5px 10px 3px 20px; */
+    /* border-radius: 50px 100px 30px;  */
+    border-radius: 50px 15px;
+    /* border-radius: 50px; */
+    /*border-radius: 5px 0px; */
 
 }
+
+/* 
+Three values - border-radius: 15px 50px 30px; (first value applies to top-left corner, second value applies to top-right and bottom-left corners, and third value applies to bottom-right corner)
+Two values - border-radius: 15px 50px; (first value applies to top-left and bottom-right corners, and the second value applies to top-right and bottom-left corners)
+One value - border-radius: 15px; (the value applies to all four corners, which are rounded equally 
+*/
