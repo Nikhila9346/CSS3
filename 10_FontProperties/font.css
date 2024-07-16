@@ -1,0 +1,23 @@
+h1{
+    font-style: normal;
+    font-style: italic;
+    font-style: oblique;
+
+    font-size: x-large;
+    font-size: xx-large;
+    font-size: x-small;
+    font-size: xx-small;
+    font-size: 100px;
+
+    font-weight: 100;
+    font-weight: 1000;
+    /* font-weight: 1500; */
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: fantasy;
+    font-family: cursive;
+    
+}
+p{
+    font-style: oblique;
+}
