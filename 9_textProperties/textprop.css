@@ -1,9 +1,57 @@
 h1{
-    text-align: start;
     text-align: center;
     text-align: right;
+    text-align: start;
+
+    /* text decoration line  */
+    text-decoration-line: overline;
+    text-decoration-line: underline;
+    text-decoration-line: none;
+    text-decoration-line: line-through;
+
+    /* text decoration color  */
+    text-decoration-color: aqua;
+
+    /* text decoration thickness  */
+    text-decoration-thickness: 5px;
+
+    /* text-decoration style  */
+    text-decoration-style: solid;
+    text-decoration-style: dashed;
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: wavy;
+
+    /* text decoration shorthand property: order doesn't matter  */
+    text-decoration: line-through red 2px wavy ;
+
+    /* text transform  */
+    text-transform: uppercase;
+    text-transform: lowercase;
+    text-transform: capitalize;
+
+    /* text spacing  */
+    text-indent: 200px;
+    letter-spacing: 20px;
+    letter-spacing: normal;
+    word-spacing: 20px;
+    word-spacing: normal;
+    line-height: 200px;
+    line-height: normal;
+
+    /* text shadow  */
+    text-shadow: 2px 2px 5px red;
+
 }
 
 p{
     text-align-last: center;
+    text-decoration-line: underline ;
+    text-decoration-thickness: 5px;
+    text-decoration-style: solid;
+    text-decoration-style: dashed;
+    text-decoration-style: double;
+    text-decoration-style: dotted;
+    text-decoration-style: wavy;
+
 }
