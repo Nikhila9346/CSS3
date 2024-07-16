@@ -20,5 +20,7 @@ h1{
     border-bottom-style: double;
     border-right-style: ridge;
 
-    border: 20px green groove;
+    border: groove green 20px;
 }
+
+/* the order in the border short hand property will not affect the appearance  */
