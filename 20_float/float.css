@@ -1,0 +1,18 @@
+div{
+    border: 2px solid black;
+    height: 200px;
+    width: 600px;
+    background-color: peru;
+    float: right;
+}
+span{
+    border: 2px solid red;
+    background-color: yellow;
+    display: block;
+    height: 200px;
+    width: 700px;
+    position: relative;
+    top: 250px;
+    float: left;
+    float: none;
+}
