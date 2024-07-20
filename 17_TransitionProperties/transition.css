@@ -8,15 +8,16 @@
     width: 250px;
     background-color: salmon;
     position: relative;
-    top: 150px;
-    left: 450px;
+    top: 200px;
+    left: 600px;
     transition-property: all;
     transition-duration: 5s;
-    transition-delay:1s;
-    transition: all 7s 1s;
+    transition-delay: 1s; 
+    transition: all 5s 1s;
 }
+
 div:hover{
-    background-color: sandybrown;
+    background-color: rgb(239, 96, 244);
     border-radius: 50%;
 } */
 
@@ -31,11 +32,11 @@ div:hover{
     transition-timing-function: ease-in;
     transition-timing-function: ease-out;
     transition-timing-function: ease-in-out;
-    transition-timing-function: linear;
+    transition-timing-function: linear; 
 }
 main:hover{
     width: 1000px;
-} */
+}  */
 
 /* example 3 */
 #img_container{
@@ -43,8 +44,8 @@ main:hover{
     width: 200px;
     border: 0px solid red;
     position: relative;
-    top: 100px;
-    left: 550px;
+    top: 200px;
+    left: 650px;
     overflow: hidden;
 }
 img{
@@ -68,5 +69,6 @@ p{
 }
 
 /* 
+transition: relative (Elements are positioned w.r.t the normal/current position)
 transition-delay will wait for the specified time and then applies all the transition properties
  */
