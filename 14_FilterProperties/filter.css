@@ -1,0 +1,25 @@
+img{
+    height: 400px;
+    width: 500px;
+    /* transition: all 2s; */
+    filter: blur(10px);
+    filter: brightness(10%);
+    filter: grayscale(0.1);
+    filter:opacity(0.5);
+    filter: drop-shadow(20px 30px 40px black);
+}
+/* 
+img:hover{
+    filter: blur(0px);
+    filter: brightness(100%);
+    filter: grayscale(1);
+} 
+*/
+
+/* 
+blur() -- blurness of an image
+brightness(0-1) -- the color intensity increases
+grayscale(0-1) -- black and white image
+opacity(0-1) -- the transparency of an image
+drop-shadow(px color) -- adds the shadow effect for an image  
+*/
