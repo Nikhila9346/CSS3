@@ -1,0 +1,11 @@
+div{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    background: radial-gradient(violet, blue, lightgreen, yellow, orange, red);
+    background: radial-gradient(violet 0% 10%, blue 10% 20%, lightgreen 20% 30%, yellow 30% 40%, orange 40% 50%, red);
+
+    /* repeating radial gradient */
+    background: repeating-radial-gradient(violet, blue, lightgreen, yellow, orange, red);
+    background: repeating-radial-gradient(violet 0% 10%, blue 10% 20%, lightgreen 20% 30%, yellow 30% 40%, orange 40% 50%, red 50% 60%);
+}

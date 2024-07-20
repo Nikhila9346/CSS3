@@ -2,7 +2,7 @@ div{
     border: 2px solid greenyellow;
     height: 500px;
     width: 500px;
-    background-color: red;
+    /* background-color: red;
     background: linear-gradient(red, green, blue);
     background: linear-gradient(to left,red, green, blue);
     background: linear-gradient(to right,red, green, blue);
@@ -10,5 +10,9 @@ div{
     background: linear-gradient(to bottom,red, green, blue);
     background: linear-gradient(to top right,red, green, blue);
     background: linear-gradient(to top right,red 0% 25%, green 25% 60%, blue 70% 90%);
+    background: linear-gradient(to top right,red 0% 25%, green 25% 60%, blue); */
 
+    /* repeating linear gradient */
+    background: repeating-linear-gradient(red, green, yellow);
+    background: repeating-linear-gradient(orange 0% 10%, white 10% 20%, green 20% 30%);
 }

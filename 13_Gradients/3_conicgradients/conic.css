@@ -1,0 +1,10 @@
+div{
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background: conic-gradient(red, green ,yellow, blue);
+    background: conic-gradient(red 0% 10%, green 10% 20%,yellow 30% 40%, blue 40% 50%);
+    background: repeating-conic-gradient(red 0% 10%, green 10% 20%,pink 20% 30%, yellow 30% 40%, blue 40% 50%);
+    background: repeating-conic-gradient(black 0% 5%, white 5% 10%);
+}
