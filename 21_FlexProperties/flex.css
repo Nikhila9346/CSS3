@@ -1,0 +1,58 @@
+#flexcontainer{
+    border: 2px solid red;
+    height: 50vh;
+    width: 100vh;
+
+    /* display flex  */
+    display: flex;
+
+    /* flex direction  */
+    /* flex-direction: row;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+
+    /* flex wrap  */
+    /* flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+
+    /* justify content  */
+    justify-content: center;
+     /*justify-content: flex-end;
+    justify-content: flex-start;
+    justify-content: space-between;  
+    justify-content: space-around;
+    justify-content: space-evenly; */
+
+    /* align items  */
+    align-items: center;
+    /* align-items: flex-start;
+    align-items: flex-end; */
+
+    /* column gap  */
+    column-gap: 100px;
+
+    /* row gap  */
+    row-gap: 500px;
+
+    /* gap shorthand property  */
+    gap: 20px 200px;
+}
+#flexitem{
+    margin: 10px;
+    height: 10vh;
+    width: 10vh;
+    border: 2px dashed black;
+    background-color: yellow;
+}
+
+/* 
+    justify content: space-between (add an equal space between the flex items)
+    justify content: space-around (it will leave space on the left and right side of the flex item)  
+    justify content: space-evenly (it will leave an equal space betweeen each and every flex item)
+
+    If you want to align the flex items at the center give the properties to the flex container as
+    justify content: center and align-items: center
+
+*/
