@@ -31,13 +31,13 @@
     align-items: flex-end; */
 
     /* column gap  */
-    column-gap: 100px;
+    column-gap: 50px;
 
     /* row gap  */
     row-gap: 500px;
 
     /* gap shorthand property  */
-    gap: 20px 200px;
+    gap: 20px 50px;
 }
 #flexitem{
     margin: 10px;
@@ -45,6 +45,9 @@
     width: 10vh;
     border: 2px dashed black;
     background-color: yellow;
+
+    /* flex basis  */
+    flex-basis: 500px;
 }
 
 /* 
