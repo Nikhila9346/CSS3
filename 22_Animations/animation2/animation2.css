@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+img{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    top: 50px;
+    left: 500px;
+    
+    animation: rotat 0s linear 2s infinite alternate;
+}
+@keyframes rotat {
+    from{
+        rotate: 0deg;
+    }
+    to{
+        rotate: 360deg;
+    }
+}
