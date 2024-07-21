@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+nav{
+    /* border: 2px solid black; */
+    display: flex;
+    height: 80px;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    column-gap: 20px;
+}
+img{
+    height: 80px;
+}
+#search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    border-radius: 20px;
+    margin-left: 250px;
+    height: 35px;
+    width: 500px;
+    text-indent: 15px;
+    border: 2px solid gainsboro;
+}
+.fa-magnifying-glass{
+    margin-left: -37px;
+    border-width: 2px;
+    border-left-style: solid;
+    border-left-color: rgba(220, 220, 220, 0.46);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: gainsboro;
+    padding: 9px;
+}
+.fa-microphone{
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid white;
+    background-color: rgba(220, 220, 220, 0.368);
+    border-radius: 70%;
+}
+#icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+}
+.fa-upload{
+    margin-left: 350px;
+}
+
+.fa-user{
+    border: 2px solid white;
+    padding: 10px;
+    background-color: rgba(0, 0, 255, 0.227);
+    border-radius: 50%;
+}
