@@ -23,22 +23,23 @@ img{
     justify-content: center;
 }
 input{
-    border-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
     margin-left: 250px;
-    height: 35px;
-    width: 500px;
+    height: 36px;
+    width: 425px;
     text-indent: 15px;
     border: 2px solid gainsboro;
 }
 .fa-magnifying-glass{
-    margin-left: -37px;
+    margin-left: 0px;
     border-width: 2px;
     border-left-style: solid;
     border-left-color: rgba(220, 220, 220, 0.46);
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
     background-color: gainsboro;
-    padding: 9px;
+    padding: 10px;
 }
 .fa-microphone{
     margin: 20px;
