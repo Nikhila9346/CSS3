@@ -38,7 +38,13 @@ p{
 #blue{
     background-color: blue;
 }
-
+img{
+    background-color: springgreen;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+    margin:100px;
+}
 /* 
 1. we can change the inline --> block and block --> inline
 2. height and width properties are not applied to inline level elements
@@ -47,6 +53,7 @@ p{
 -- display: inline - block
 
    It behaves like inline level elements but take block level properties
+   Example: img tag which acts as inline level element but takes the properties of block level
 
 
  */
