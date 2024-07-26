@@ -10,6 +10,7 @@ div{
     margin: 200px;
     margin-left: 600px;
     /* box-shadow: 2px 3px 20px white; */
+    /* box-shadow: -20px -20px 10px red inset; */
     box-shadow: 2px 3px 20px white inset, 5px 6px 2px whitesmoke, 10px 9px 10px wheat;
     transition: all 3s;
 }
