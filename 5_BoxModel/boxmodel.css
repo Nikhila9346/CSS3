@@ -1,15 +1,18 @@
 /* margin in box model : it adds the space between the border and the webpage
-It can take the negative values also by specifying it, the element will go in the opposite direction of the webpage */
+It can take the negative values also by specifying it, the element will go in the opposite direction of the webpage
+It can take margin:auto which will center the element in the webpage (if incase the element is taking the entire width then reduce its width to see the changes) */
 
 #one{
     border: 2px deeppink solid;
     background-color: greenyellow;
-    margin-top: 100px;
+    width: 200px;
+    margin: auto;
+    /* margin-top: 100px;
     margin-right: 100px;
     margin-left: 100px;
     margin-bottom: 100px;
     margin: -10px;
-    margin: 10px;
+    margin: 10px; */
 }
 #two{
     border: 5px orangered solid;
