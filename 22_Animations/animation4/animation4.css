@@ -13,7 +13,7 @@
 #img_container{
     height: 350px;
     width: 550px;
-    border: 20x solid black;
+    border: 2px solid black;
     display: flex;
     overflow: hidden;
     border-radius: 5%;
