@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: gainsboro;
+}
+#nav1{
+    height: 80px;
+    border: 2px solid white;
+    background-color: white;
+    display: flex;
+    column-gap: 50px;
+    align-items: center;
+}
+h2{
+    background-color: white;
+}
+#home{
+    margin-left: 950px;
+}
+#leftnav{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    background-color: white;
+    width: 250px;
+    row-gap: 60px;
+    height: 100vh;
+    position: absolute;
+    top: -1px;
+    align-items: center;
+    border-top-right-radius: 30px;
+    box-shadow: 5px 10px 20px black;
+}
+#profile{
+    margin-top: -40px;
+}
+#logo{
+    height: 140px;
+    width: 150px;
+    position: relative;
+    top: -25px;
+}
+#img_container{
+    position: relative;
+    left: 550px;
+    top: 30px;
+    /* border: 2px solid black; */
+    border-radius: 20px;
+    height: 400px;
+    width: 650px;
+    filter: drop-shadow(15px 15px 10px gray);
+}
+#clothes{
+    position: relative;
+    height: 400px;
+    width: 650px;
+    border-radius: 10px;
+}
+#content{
+    position: relative;
+    top: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    background-color: black;
+    /* background-color: black; */
+    width: 650px;
+    color: white;
+    left: 550px;
+    border-radius: 20px;
+    filter: drop-shadow(10px 15px 10px gray);
+}
+p{
+    background-color: black;
+}
